@@ -1,0 +1,8 @@
+{
+  "name": "Pildorapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "id": "5a3c82c8"
+}
