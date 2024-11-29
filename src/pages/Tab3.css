@@ -1,0 +1,103 @@
+:root {
+    --ion-color-primary: #00509d; 
+    --ion-tab-bar-background:  #00a885;
+    --ion-color-secondary: #fcb900; 
+    --ion-color-success: #00b894; 
+    --background-color: #f4f7fc;
+  }
+  
+  /* Contenido centrado y con espaciado */
+  .vehicle-details-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: var(--background-color);
+  }
+  
+  /* Estilo del ion-card */
+  .vehicle-card {
+    width: 90%;
+    max-width: 1000px; /* Limitar el ancho máximo */
+    margin: 0 auto;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Imagen del vehículo */
+  .vehicle-image {
+    width: 100%;
+    height: auto;
+    border-radius: 16px 16px 0 0;
+  }
+  
+  /* Título y subtítulo del vehículo */
+  ion-card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--ion-color-primary);
+  }
+  
+  ion-card-subtitle {
+    font-size: 1.2rem;
+    color:  #fcb900;
+  }
+  
+  /* Descripción del vehículo */
+  .vehicle-description {
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 16px;
+    text-align: justify;
+    margin-top: 0 auto;
+    border-radius: 8px;
+  }
+  
+  /* Lista de características */
+  ion-item {
+    --background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    margin-bottom: 8px;
+    max-width: 1000px;
+   
+  }
+  
+
+  ion-list {
+    --background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 8px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  /* Botón de reservar */
+  .reserve-button {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    --background: var(--ion-color-success);
+    --background-hover: #00a885;
+    --background-activated: #008f73;
+    --color: #fff;
+    border-radius: 8px;
+    transition: transform 0.2s;
+  }
+  
+  .reserve-button:hover {
+    transform: scale(1.02);
+    color: #fff;
+  }
+  
+  /* Estilo del encabezado */
+  .header-title {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }

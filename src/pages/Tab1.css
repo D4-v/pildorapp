@@ -1,0 +1,38 @@
+:root {
+    --ion-color-primary: #00509d; 
+    --ion-color-secondary: #fcb900; 
+    --ion-color-success: #00b894; 
+    --background-color: #f4f7fc; 
+  }
+    /* Estilo del encabezado */
+    .toolbar{
+        border: #f74e00;
+        display:flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .titulo {
+        font-size: 2.5rem;
+        text-align: center;
+        font-weight: bold;
+        color: #ffffff;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border: #f74e00;
+      }
+    .item{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: var(--background-color);
+        border: #ffffff;
+    }
+   .input {
+        --color: #000;
+        --placeholder-color: #b1b1b1;
+        display: flex;
+        border: #525252;
+    
+      }
+      /**/
